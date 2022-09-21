@@ -143,7 +143,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "owQ0g5sacl3SfccPJuTfVxsquXl4",
+      id: "owQ0g5h06FVlncit9ZviVW0xTF1E",
     },
     // 你可以不断按格式往下增加
     // ...
@@ -202,11 +202,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
-    // 结婚纪念日
-    {"keyword": "marry_day", date: "2022-09-09"},
-    // 退伍日
-    {"keyword": "ex_day", date: "2022-09-10"},
+  //  {"keyword": "love_day", date: "2022-09-08"},
     // 你可以不断按格式往下增加
     // ...
   ],
