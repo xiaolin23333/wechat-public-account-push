@@ -28,13 +28,13 @@ export const config = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
-    oneTalk: true,
+    oneTalk: false,
     // 土味情话(彩虹屁)
     earthyLoveWords: false,
     // 朋友圈文案
-    momentCopyrighting: true,
+    momentCopyrighting: false,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
@@ -93,11 +93,11 @@ export const config = {
     {
       name: "测试1",
       id: "owQ0g5sacl3SfccPJuTfVxsquXl4",
-      useTemplateId: "TWg-L2MXEtzblutLToov1AINeMAymZiyAaTsjy7DzI8",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      useTemplateId: "y5c3QOr8qwRzVBoPs0NFmj7COvC8-xskdaja2KruVI4",
+      province: "江苏",
+      city: "无锡",
+      horoscopeDate: '04-11',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
       festivals: [],
       customizedDateList: []
