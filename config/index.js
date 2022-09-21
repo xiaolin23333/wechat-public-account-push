@@ -62,9 +62,9 @@ export const config = {
       // 想要发送的人的名字
       name: "姚姚",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "f3EDXirE_vZJnRDYdT2EIKXsWyjT01SyZO7gVaHK5V4",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "ZtcdfNwK0FIaOJ5RmRd08oXFVNFpgo_SDVBl4Rfcsm0",
+      useTemplateId: "f3EDXirE_vZJnRDYdT2EIKXsWyjT01SyZO7gVaHK5V4",
       // 所在省份
       province: "江苏",
       // 所在城市
@@ -78,8 +78,8 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "2003", "date": "04-04"},
-        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+        {"type": "*生日", "name": "姚姚", "year": "2003", "date": "04-04"},
+     //   {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
      //   {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
      //  {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
@@ -92,10 +92,10 @@ export const config = {
     },
     {
       name: "测试1",
-      id: "owQ0g5sacl3SfccPJuTfVxsquXl4",
-      useTemplateId: "bAgFBRlUQNiaSTf-QyXlBp3o6h1TYfpD1sedn9PNaIc",
-      province: "江苏",
-      city: "无锡",
+      id: "",
+      useTemplateId: "",
+      province: "江",
+      city: "",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
