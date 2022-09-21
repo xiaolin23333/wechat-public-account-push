@@ -92,9 +92,9 @@ export const config = {
     },
     {
       name: "测试1",
-      id: "",
-      useTemplateId: "",
-      province: "江",
+      id: "owQ0g5sacl3SfccPJuTfVxsquXl4",
+      useTemplateId: "QTjEijJuICWoL6zxwTs73VcvzdqhAF2oLHBIWVjpJKY",
+      province: "",
       city: "",
       horoscopeDate: '',
       horoscopeDateType: '',
