@@ -62,7 +62,7 @@ export const config = {
       // 想要发送的人的名字
       name: "姚姚",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "owQ0g5jAeR3AvgF2AQUQvu4N_o3o",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "Pbf7wJ83TO1o8UZ2NS-769-TAGy3O_CpvCXSUieP2IU",
       // 所在省份
@@ -74,7 +74,7 @@ export const config = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "http://www.51bbw.cn/show/128.html",
+      openUrl: "https://s.weibo.com/weibo?q=%E7%99%BD%E7%BE%8A%E5%BA%A7",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -92,13 +92,13 @@ export const config = {
     },
     {
       name: "测试1",
-      id: "owQ0g5sacl3SfccPJuTfVxsquXl4",
-      useTemplateId: "Pbf7wJ83TO1o8UZ2NS-769-TAGy3O_CpvCXSUieP2IU",
-      province: "江苏",
-      city: "无锡",
+      id: "",
+      useTemplateId: "",
+      province: "",
+      city: "",
       horoscopeDate: '',
       horoscopeDateType: '',
-      openUrl: "http://www.51bbw.cn/show/128.html",
+      openUrl: "",
       festivals: [],
       customizedDateList: []
     },
