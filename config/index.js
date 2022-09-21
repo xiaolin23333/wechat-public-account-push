@@ -60,11 +60,11 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "姚姚0",
+      name: "姚姚",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "5BcS8XU7RNDoNXC8xLlp9Qy8QByWQT06e83gvMpXZRU",
+      useTemplateId: "ZtcdfNwK0FIaOJ5RmRd08oXFVNFpgo_SDVBl4Rfcsm0",
       // 所在省份
       province: "江苏",
       // 所在城市
@@ -81,35 +81,19 @@ export const config = {
         {"type": "*生日", "name": "老婆", "year": "2003", "date": "04-04"},
         {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+     //   {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
+     //  {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
-        // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
-        // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+     //   {"keyword": "love_day", date: "2022-09-08"},
       ]
     },
     {
-      name: "姚姚1",
-      id: "",
-      useTemplateId: "",
-      province: "江苏",
-      city: "南京",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "测试2",
+      name: "测试1",
       id: "owQ0g5sacl3SfccPJuTfVxsquXl4",
-      useTemplateId: "5BcS8XU7RNDoNXC8xLlp9Qy8QByWQT06e83gvMpXZRU",
+      useTemplateId: "QTjEijJuICWoL6zxwTs73VcvzdqhAF2oLHBIWVjpJKY",
       province: "江苏",
       city: "无锡",
       horoscopeDate: '',
@@ -119,7 +103,19 @@ export const config = {
       customizedDateList: []
     },
     {
-      name: "姚姚3",
+      name: "测试2",
+      id: "",
+      useTemplateId: "",
+      province: "",
+      city: "",
+      horoscopeDate: '',
+      horoscopeDateType: '',
+      openUrl: "https://wangxinleo.cn",
+      festivals: [],
+      customizedDateList: []
+    },
+    {
+      name: "测试3",
       id: "",
       useTemplateId: "",
       province: "",
@@ -139,7 +135,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "ZtcdfNwK0FIaOJ5RmRd08oXFVNFpgo_SDVBl4Rfcsm0",
+  CALLBACK_TEMPLATE_ID: "QTjEijJuICWoL6zxwTs73VcvzdqhAF2oLHBIWVjpJKY",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
