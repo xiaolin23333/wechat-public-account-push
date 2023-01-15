@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "owQ0g5sMAA01POojNRDJFMpn9jrA",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "H6KOJ4xmcIYr7fJPNkcsJH_PGfaAtZ4LFcfOlJfPcWU",
+      useTemplateId: "grwkA7zMAILH2x3oun1ALiTg8Cj9jcwsLTvJgNBC8lM",
       // 所在省份
       province: "江苏",
       // 所在城市
@@ -93,7 +93,7 @@ export const config = {
     {
       name: "小林",
       id: "owQ0g5sacl3SfccPJuTfVxsquXl4",
-      useTemplateId: "UkoAm0UgYlVBoFxEDADzE1O-G9WFa6BOR1eiNvV0BLM",
+      useTemplateId: "grwkA7zMAILH2x3oun1ALiTg8Cj9jcwsLTvJgNBC8lM",
       province: "江苏",
       city: "无锡",
       horoscopeDate: '04-11',
@@ -181,7 +181,7 @@ export const config = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "姚姚", "year": "2003", "date": "04-04", isShowAge: true},
+    {"type": "*生日", "name": "小林", "year": "2001", "date": "04-11", isShowAge: true},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     // 你可以不断按格式往下增加
     // ...
