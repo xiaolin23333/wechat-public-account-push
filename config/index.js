@@ -15,7 +15,7 @@ export const config = {
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: true,
+  IS_SHOW_COLOR: false,
 
   // 功能开关,打开：true，关闭：false
   SWITCH: {
@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "byW5RMpAWoxf4u28yl3Ak1nB9tryeJap6bs6CXX3Lxw",
+      useTemplateId: "ckwzjPUU1i6MNl4G7DzFRCP2sqW86eEdUpZx5h-Rxfw",
       // 所在省份
       province: "江苏",
       // 所在城市
@@ -93,7 +93,7 @@ export const config = {
     {
       name: "小林",
       id: "owQ0g5sacl3SfccPJuTfVxsquXl4",
-      useTemplateId: "byW5RMpAWoxf4u28yl3Ak1nB9tryeJap6bs6CXX3Lxw",
+      useTemplateId: "ckwzjPUU1i6MNl4G7DzFRCP2sqW86eEdUpZx5h-Rxfw",
       province: "江苏",
       city: "无锡",
       horoscopeDate: '04-11',
