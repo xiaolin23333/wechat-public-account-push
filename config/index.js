@@ -93,7 +93,7 @@ export const config = {
     {
       name: "小林",
       id: "owQ0g5sacl3SfccPJuTfVxsquXl4",
-      useTemplateId: "YlZ85gIU73fGsjBHO7NvNSTIpgHcY8k2RgnqpGpKz1Q",
+      useTemplateId: "8yMIsMk6WPc-bT4-YTYjn2XKJpNhnsABWNBt_Dilcn8",
       province: "江苏",
       city: "无锡",
       horoscopeDate: '04-11',
