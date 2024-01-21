@@ -60,25 +60,25 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "小妍",
+      name: "乖宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "owQ0g5ncCn4Px4GtQjUTHQ3A66-g",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "opPRtWCKSbD4Ws7omvhaIlXL0aMFYK0k7c_pwcFu8-I",
+      useTemplateId: "vFWuJ4fR9zihLetC5rx7PvxaquiK09l7bNjNaCfhYIE",
       // 所在省份
       province: "江苏",
       // 所在城市
-      city: "常州",
+      city: "无锡",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '03-20',
+      horoscopeDate: '12-08',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "http://47.96.156.204:8080/#/login",
+      openUrl: "https://www.xiaolingpt.live/zh",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "小妍", "year": "2002", "date": "03-20"},
+        {"type": "*生日", "name": "乖宝", "year": "2005", "date": "12-08"},
      //   {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
      //   {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
@@ -98,7 +98,7 @@ export const config = {
       city: "无锡",
       horoscopeDate: '04-11',
       horoscopeDateType: '今日',
-      openUrl: "http://47.96.156.204:8080/#/login",
+      openUrl: "https://www.xiaolingpt.live/zh",
       festivals: [
         {"type": "*生日", "name": "小林", "year": "2001", "date": "04-11"},
       ],
