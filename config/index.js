@@ -103,7 +103,8 @@ export const config = {
         {"type": "*生日", "name": "小林", "year": "2001", "date": "04-11"},
       ],
       customizedDateList: [
-        {"keyword": "birthDay1", date: "2001-04-11"},
+        {"keyword": "birthDay1", date: "04-11"},
+        {"keyword": "userName", data: "小林"},
       ]
     },
     {
