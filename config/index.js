@@ -102,7 +102,9 @@ export const config = {
       festivals: [
         {"type": "*生日", "name": "小林", "year": "2001", "date": "04-11"},
       ],
-      customizedDateList: []
+      customizedDateList: [
+        {"keyword": "birthDay1", date: "2001-04-11"},
+      ]
     },
     {
       name: "测试2",
