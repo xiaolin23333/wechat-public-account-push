@@ -78,7 +78,7 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
          // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "小林", "year": "2001", "date": "03-18"},
+        {"type": "生日", "name": "小林", "year": "2001", "date": "04-11"}
            //   {"type": "节日", "name": "结婚纪念日", "year": "", "date": ""},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
      //   {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
@@ -87,31 +87,19 @@ export const config = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "birthDay1", date: "04-11"},
-        {"keyword": "userName", data: "小林"},
+        //{"keyword": "birthDay1", date: "04-11"},
+        //{"keyword": "userName", data: "小林"},
       ]
     },
     {
       name: "测试2",
-      id: "",
-      useTemplateId: "xGE9HCQhxw0XYuSrN9DFGELEVSh-GHOE36wqWKOcwFM",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "测试3",
       id: "",
       useTemplateId: "",
       province: "",
       city: "",
       horoscopeDate: '',
       horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "",
       festivals: [],
       customizedDateList: []
     },
@@ -145,9 +133,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "江苏",
+  PROVINCE: "福建",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "南京",
+  CITY: "莆田",
 
   /** 重要节日相关 */
 
